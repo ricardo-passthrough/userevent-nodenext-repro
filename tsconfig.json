@@ -1,8 +1,8 @@
 {
-    "include": ["./index.ts"],
     "compilerOptions": {
         "lib": ["dom", "esnext"],
         "module": "esnext",
-        "moduleResolution": "nodenext"
+        "moduleResolution": "nodenext",
+        "esModuleInterop": true,
     }
 }
