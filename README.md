@@ -65,4 +65,20 @@ Time:        1.18 s
 Ran all test suites.
 ```
 
-branches with each cases are in the repro.
+it works fine with babel:
+
+```sh
+Projects/repro [babel-test●] » npm test
+
+> test
+> jest
+
+ PASS  ./index.test.ts
+  ✓ user event (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.561 s
+Ran all test suites.
+```
