@@ -1,0 +1,10 @@
+{
+    "type": "module",
+    "devDependencies": {
+        "@testing-library/user-event": "^14.4.3",
+        "typescript": "^5.0.4"
+    },
+    "scripts": {
+        "build": "tsc"
+    }
+}
