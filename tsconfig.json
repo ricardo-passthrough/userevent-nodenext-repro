@@ -1,8 +1,9 @@
 {
-    "compilerOptions": {
-        "lib": ["dom", "esnext"],
-        "module": "esnext",
-        "moduleResolution": "nodenext",
-        "esModuleInterop": true,
-    }
+  "compilerOptions": {
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "jsx": "react-jsx"
+  }
 }

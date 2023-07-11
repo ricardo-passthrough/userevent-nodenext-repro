@@ -1,3 +1,4 @@
 import userEvent from '@testing-library/user-event';
 
-userEvent.setup();
+// @ts-expect-error
+const user: ReturnType<typeof userEvent.default.setup> = userEvent.setup();
